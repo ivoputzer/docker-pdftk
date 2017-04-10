@@ -13,5 +13,5 @@ docker pull ivoputzer/pdftk:latest
 
 ### add alias to your shell profile
 ```sh
-alias pdftk="docker run --rm -v $(pwd):/tmp -i ivoputzer/pdftk $@"
+alias pdftk="docker run --rm -v $(pwd):/wd -i ivoputzer/pdftk $@"
 ```
