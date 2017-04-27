@@ -1,10 +1,10 @@
 docker-pdftk
 ===
-utility [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/) wrapper for docker hence [homebrew-pdftk](https://github.com/spl/homebrew-pdftk) has been discontinued.
+utility container for [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/).
 
 ### build image
 ```sh
-docker build -t ivoputzer/pdftk .
+docker build -t pdftk .
 ```
 
 ### pull image
